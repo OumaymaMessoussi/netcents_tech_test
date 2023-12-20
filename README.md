@@ -1,4 +1,5 @@
 The project was structured as follows:
+
 global_varibales.py: contains the variables shared by some/all scripts for reusability.
 main.py: contains the API end point logic.
 record_transactions.py: contains the logic for fetching the blockchain transactions, finding the largest one and inserting it in the db.
