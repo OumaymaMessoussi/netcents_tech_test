@@ -5,7 +5,7 @@ main.py: contains the API end point logic.
 record_transactions.py: contains the logic for fetching the blockchain transactions, finding the largest one and inserting it in the db.
 query_db.py: script used to display the content of the table unconfirmed_transactions of transaction records.
 
-PostgreSQL was used in this project on a MacOS with conda environment.
+PostgreSQL was used in this project on a MacOS (with Postgres.app) with conda environment.
 
 
 To test the code:
