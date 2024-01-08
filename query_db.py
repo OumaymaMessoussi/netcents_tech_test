@@ -1,7 +1,9 @@
 import psycopg2
 
+from global_variables import DB_NAME, PASSWORD, PORT, USERNAME
+
 # Replace with your PostgreSQL credentials and database information
-DATABASE_URL = "postgresql://oumaymamessoussi:tmptmp@localhost:5432/template1"
+DATABASE_URL = f"postgresql://{USERNAME}:{PASSWORD}@localhost:5432/template1"
 
 # Connect to the PostgreSQL database
 connection = psycopg2.connect(DATABASE_URL)
