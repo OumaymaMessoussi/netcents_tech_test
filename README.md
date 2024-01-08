@@ -13,4 +13,4 @@ To test the code:
 2. run main.py to launch the Flask app, then navigate to http://127.0.0.1:5000/api/largest_transaction in your browser to see the largest transaction recorded to date.
 3. running query_db.py will display the content of the table unconfirmed_transactions to make sure we're adding to it every 5min.
 
-In all script runs, you need to set the following env variables for the DB: USERNAME, PASSWORD. Whiel testing this code in my environment, I used Pycharm and I defined these env vars in the Run/Debug Configurations.
+In all script runs, you need to set the following env variables for the DB: USERNAME, PASSWORD. While testing this code in my environment, I used Pycharm and I defined these env vars in the Run/Debug Configurations.
